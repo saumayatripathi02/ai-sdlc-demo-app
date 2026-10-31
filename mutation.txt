@@ -1,0 +1,474 @@
+> ai-sdlc-demo-app@1.0.0 mutate
+> stryker run
+
+15:17:50 (196) WARN OptionsValidator DEPRECATED. Use of "htmlReporter.baseDir" is deprecated, please use "htmlReporter.fileName" instead. See https://stryker-mutator.io/docs/stryker-js/configuration/#reporters-string
+15:17:51 (196) INFO ProjectReader Found 3 of 26 file(s) to be mutated.
+15:17:51 (196) INFO Instrumenter Instrumented 3 source file(s) with 131 mutant(s)
+15:17:51 (196) INFO ConcurrencyTokenProvider Creating 11 test runner process(es).
+15:17:55 (196) INFO DryRunExecutor Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+15:17:56 (196) INFO DryRunExecutor Initial test run succeeded. Ran 11 tests in 1 second (net 14.11390000000074 ms, overhead 1322.8860999999993 ms).
+Mutation testing  [] 0% (elapsed: <1m, remaining: n/a) 1/131 Mutants tested (0 sMutation testing  [] 4% (elapsed: <1m, remaining: n/a) 34/131 Mutants tested (0 Mutation testing  [] 5% (elapsed: <1m, remaining: <1m) 35/131 Mutants tested (0 Mutation testing  [] 7% (elapsed: <1m, remaining: <1m) 36/131 Mutants tested (0 Mutation testing  [] 9% (elapsed: <1m, remaining: <1m) 37/131 Mutants tested (0 Mutation testing  [] 11% (elapsed: <1m, remaining: <1m) 38/131 Mutants tested (0Mutation testing  [] 12% (elapsed: <1m, remaining: <1m) 39/131 Mutants tested (0Mutation testing  [] 14% (elapsed: <1m, remaining: <1m) 40/131 Mutants tested (0Mutation testing  [] 14% (elapsed: <1m, remaining: <1m) 41/131 Mutants tested (0Mutation testing  [] 14% (elapsed: <1m, remaining: <1m) 42/131 Mutants tested (0Mutation testing  [] 16% (elapsed: <1m, remaining: <1m) 43/131 Mutants tested (0Mutation testing  [] 17% (elapsed: <1m, remaining: <1m) 44/131 Mutants tested (0Mutation testing  [] 17% (elapsed: <1m, remaining: <1m) 45/131 Mutants tested (0Mutation testing  [] 17% (elapsed: <1m, remaining: <1m) 46/131 Mutants tested (0Mutation testing  [] 19% (elapsed: <1m, remaining: <1m) 47/131 Mutants tested (0Mutation testing  [] 20% (elapsed: <1m, remaining: <1m) 48/131 Mutants tested (0Mutation testing  [] 21% (elapsed: <1m, remaining: <1m) 49/131 Mutants tested (0Mutation testing  [] 21% (elapsed: <1m, remaining: <1m) 50/131 Mutants tested (0Mutation testing  [] 21% (elapsed: <1m, remaining: <1m) 52/131 Mutants tested (0Mutation testing  [] 22% (elapsed: <1m, remaining: <1m) 53/131 Mutants tested (0Mutation testing  [] 24% (elapsed: <1m, remaining: <1m) 54/131 Mutants tested (0Mutation testing  [] 27% (elapsed: <1m, remaining: <1m) 56/131 Mutants tested (1Mutation testing  [] 28% (elapsed: <1m, remaining: <1m) 57/131 Mutants tested (2Mutation testing  [] 30% (elapsed: <1m, remaining: <1m) 58/131 Mutants tested (2Mutation testing  [] 31% (elapsed: <1m, remaining: <1m) 59/131 Mutants tested (3Mutation testing  [] 33% (elapsed: <1m, remaining: <1m) 60/131 Mutants tested (4Mutation testing  [] 34% (elapsed: <1m, remaining: <1m) 61/131 Mutants tested (4Mutation testing  [] 36% (elapsed: <1m, remaining: <1m) 62/131 Mutants tested (4Mutation testing  [] 37% (elapsed: <1m, remaining: <1m) 63/131 Mutants tested (5Mutation testing  [] 39% (elapsed: <1m, remaining: <1m) 64/131 Mutants tested (5Mutation testing  [] 40% (elapsed: <1m, remaining: <1m) 65/131 Mutants tested (5Mutation testing  [] 42% (elapsed: <1m, remaining: <1m) 66/131 Mutants tested (5Mutation testing  [] 43% (elapsed: <1m, remaining: <1m) 67/131 Mutants tested (5Mutation testing  [] 45% (elapsed: <1m, remaining: <1m) 68/131 Mutants tested (5Mutation testing  [] 45% (elapsed: <1m, remaining: <1m) 69/131 Mutants tested (5Mutation testing  [] 47% (elapsed: <1m, remaining: <1m) 71/131 Mutants tested (5Mutation testing  [] 47% (elapsed: <1m, remaining: <1m) 72/131 Mutants tested (5Mutation testing  [] 49% (elapsed: <1m, remaining: <1m) 73/131 Mutants tested (5Mutation testing  [] 50% (elapsed: <1m, remaining: <1m) 74/131 Mutants tested (5Mutation testing  [] 52% (elapsed: <1m, remaining: <1m) 75/131 Mutants tested (5Mutation testing  [] 52% (elapsed: <1m, remaining: <1m) 76/131 Mutants tested (5Mutation testing  [] 53% (elapsed: <1m, remaining: <1m) 77/131 Mutants tested (5Mutation testing  [] 53% (elapsed: <1m, remaining: <1m) 78/131 Mutants tested (5Mutation testing  [] 53% (elapsed: <1m, remaining: <1m) 79/131 Mutants tested (5Mutation testing  [] 55% (elapsed: <1m, remaining: <1m) 81/131 Mutants tested (5Mutation testing  [] 56% (elapsed: <1m, remaining: <1m) 82/131 Mutants tested (5Mutation testing  [] 58% (elapsed: <1m, remaining: <1m) 83/131 Mutants tested (6Mutation testing  [] 59% (elapsed: <1m, remaining: <1m) 84/131 Mutants tested (6Mutation testing  [] 60% (elapsed: <1m, remaining: <1m) 85/131 Mutants tested (6Mutation testing  [] 61% (elapsed: <1m, remaining: <1m) 86/131 Mutants tested (6Mutation testing  [] 61% (elapsed: <1m, remaining: <1m) 87/131 Mutants tested (6Mutation testing  [] 63% (elapsed: <1m, remaining: <1m) 88/131 Mutants tested (7Mutation testing  [] 63% (elapsed: <1m, remaining: <1m) 89/131 Mutants tested (8Mutation testing  [] 64% (elapsed: <1m, remaining: <1m) 90/131 Mutants tested (8Mutation testing  [] 65% (elapsed: <1m, remaining: <1m) 91/131 Mutants tested (8Mutation testing  [] 66% (elapsed: <1m, remaining: <1m) 92/131 Mutants tested (8Mutation testing  [] 67% (elapsed: <1m, remaining: <1m) 94/131 Mutants tested (9Mutation testing  [] 68% (elapsed: <1m, remaining: <1m) 95/131 Mutants tested (9Mutation testing  [] 68% (elapsed: <1m, remaining: <1m) 96/131 Mutants tested (9Mutation testing  [] 68% (elapsed: <1m, remaining: <1m) 97/131 Mutants tested (9Mutation testing  [] 68% (elapsed: <1m, remaining: <1m) 98/131 Mutants tested (9Mutation testing  [] 69% (elapsed: <1m, remaining: <1m) 99/131 Mutants tested (1Mutation testing  [] 69% (elapsed: <1m, remaining: <1m) 100/131 Mutants tested (Mutation testing  [] 69% (elapsed: <1m, remaining: <1m) 101/131 Mutants tested (Mutation testing  [] 70% (elapsed: <1m, remaining: <1m) 102/131 Mutants tested (Mutation testing  [] 70% (elapsed: <1m, remaining: <1m) 103/131 Mutants tested (Mutation testing  [] 71% (elapsed: <1m, remaining: <1m) 104/131 Mutants tested (Mutation testing  [] 71% (elapsed: <1m, remaining: <1m) 105/131 Mutants tested (Mutation testing  [] 71% (elapsed: <1m, remaining: <1m) 106/131 Mutants tested (Mutation testing  [] 72% (elapsed: <1m, remaining: <1m) 107/131 Mutants tested (Mutation testing  [] 72% (elapsed: <1m, remaining: <1m) 108/131 Mutants tested (Mutation testing  [] 73% (elapsed: <1m, remaining: <1m) 109/131 Mutants tested (Mutation testing  [] 73% (elapsed: <1m, remaining: <1m) 110/131 Mutants tested (Mutation testing  [] 73% (elapsed: <1m, remaining: <1m) 111/131 Mutants tested (Mutation testing  [] 74% (elapsed: <1m, remaining: <1m) 112/131 Mutants tested (Mutation testing  [] 74% (elapsed: <1m, remaining: <1m) 113/131 Mutants tested (Mutation testing  [] 75% (elapsed: <1m, remaining: <1m) 114/131 Mutants tested (Mutation testing  [] 75% (elapsed: <1m, remaining: <1m) 115/131 Mutants tested (Mutation testing  [] 75% (elapsed: <1m, remaining: <1m) 116/131 Mutants tested (Mutation testing  [] 76% (elapsed: <1m, remaining: <1m) 117/131 Mutants tested (Mutation testing  [] 76% (elapsed: <1m, remaining: <1m) 118/131 Mutants tested (Mutation testing  [] 77% (elapsed: <1m, remaining: <1m) 120/131 Mutants tested (Mutation testing  [] 77% (elapsed: <1m, remaining: <1m) 121/131 Mutants tested (Mutation testing  [] 78% (elapsed: <1m, remaining: <1m) 122/131 Mutants tested (Mutation testing  [] 78% (elapsed: <1m, remaining: <1m) 123/131 Mutants tested (Mutation testing  [] 79% (elapsed: <1m, remaining: <1m) 124/131 Mutants tested (Mutation testing  [] 79% (elapsed: <1m, remaining: <1m) 125/131 Mutants tested (Mutation testing  [] 83% (elapsed: <1m, remaining: <1m) 126/131 Mutants tested (Mutation testing  [] 83% (elapsed: <1m, remaining: <1m) 127/131 Mutants tested (Mutation testing  [] 87% (elapsed: <1m, remaining: <1m) 128/131 Mutants tested (Mutation testing  [] 91% (elapsed: <1m, remaining: <1m) 129/131 Mutants tested (Mutation testing  [] 95% (elapsed: <1m, remaining: n/a) 130/131 Mutants tested (Mutation testing  [] 100% (elapsed: <1m, remaining: n/a) 131/131 Mutants tested (25 survived, 0 timed out)
+
+All tests
+  approvalService.test.js
+    ✓ ApprovalService submits a new invoice as Draft [line 31] (killed 4)
+    ✓ ApprovalService approves an invoice when a manager approves [line 41] (killed 12)
+    ✓ ApprovalService approves an invoice when a director approves [line 57] (killed 3)
+    ✓ ApprovalService returns a business-rule result when the approver is not allowed [line 69] (killed 6)
+    ✓ ApprovalService rejects an invoice when a director rejects it [line 81] (killed 14)
+    ✓ ApprovalService returns a business-rule result when rejecting an already approved invoice [line 94] (killed 5)
+  repository-baseline.test.js
+    ~ invoice repository baseline behaviour submits a new invoice as Draft [line 8] (covered 4)
+    ✓ invoice repository baseline behaviour approves an existing invoice [line 19] (killed 12)
+    ✓ invoice repository baseline behaviour rejects an existing invoice [line 35] (killed 7)
+    ✓ invoice repository baseline behaviour returns a not found result for an unknown invoice [line 46] (killed 5)
+    ✓ invoice repository baseline behaviour refuses to approve a non-pending invoice [line 56] (killed 5)
+
+[NoCoverage] BlockStatement
+src/domain/approvalService.js:27:52
+-       if (invoice.status === InvoiceStatus.REJECTED) {
+-         return { ok: false, reason: 'Invoice rejected and cannot be approved.' };
+-       }
++       if (invoice.status === InvoiceStatus.REJECTED) {}
+
+[NoCoverage] ObjectLiteral
+src/domain/approvalService.js:28:14
+-         return { ok: false, reason: 'Invoice rejected and cannot be approved.' };
++         return {};
+
+[NoCoverage] BooleanLiteral
+src/domain/approvalService.js:28:20
+-         return { ok: false, reason: 'Invoice rejected and cannot be approved.' };
++         return { ok: true, reason: 'Invoice rejected and cannot be approved.' };
+
+[NoCoverage] StringLiteral
+src/domain/approvalService.js:28:35
+-         return { ok: false, reason: 'Invoice rejected and cannot be approved.' };
++         return { ok: false, reason: "" };
+
+[NoCoverage] BlockStatement
+src/domain/approvalService.js:31:42
+-       if (!user || !user.id || !user.role) {
+-         return { ok: false, reason: 'Approver is required.' };
+-       }
++       if (!user || !user.id || !user.role) {}
+
+[NoCoverage] ObjectLiteral
+src/domain/approvalService.js:31:42
+-         return { ok: false, reason: 'Approver is required.' };
++         return {};
+
+[NoCoverage] BooleanLiteral
+src/domain/approvalService.js:31:42
+-         return { ok: false, reason: 'Approver is required.' };
++         return { ok: true, reason: 'Approver is required.' };
+
+[NoCoverage] StringLiteral
+src/domain/approvalService.js:31:42
+-         return { ok: false, reason: 'Approver is required.' };
++         return { ok: false, reason: "" };
+
+[NoCoverage] BlockStatement
+src/domain/approvalService.js:61:19
+-       if (!invoice) {
+-         return { ok: false, reason: 'Invoice not found.' };
+-       }
++       if (!invoice) {}
+
+[NoCoverage] ObjectLiteral
+src/domain/approvalService.js:61:19
+-         return { ok: false, reason: 'Invoice not found.' };
++         return {};
+
+[NoCoverage] BooleanLiteral
+src/domain/approvalService.js:61:19
+-         return { ok: false, reason: 'Invoice not found.' };
++         return { ok: true, reason: 'Invoice not found.' };
+
+[NoCoverage] StringLiteral
+src/domain/approvalService.js:61:19
+-         return { ok: false, reason: 'Invoice not found.' };
++         return { ok: false, reason: "" };
+
+[NoCoverage] BlockStatement
+src/domain/approvalService.js:69:52
+-       if (invoice.status === InvoiceStatus.REJECTED) {
+-         return { ok: false, reason: 'Invoice already rejected.' };
+-       }
++       if (invoice.status === InvoiceStatus.REJECTED) {}
+
+[NoCoverage] ObjectLiteral
+src/domain/approvalService.js:69:52
+-         return { ok: false, reason: 'Invoice already rejected.' };
++         return {};
+
+[NoCoverage] BooleanLiteral
+src/domain/approvalService.js:69:52
+-         return { ok: false, reason: 'Invoice already rejected.' };
++         return { ok: true, reason: 'Invoice already rejected.' };
+
+[NoCoverage] StringLiteral
+src/domain/approvalService.js:69:52
+-         return { ok: false, reason: 'Invoice already rejected.' };
++         return { ok: false, reason: "" };
+
+[NoCoverage] BlockStatement
+src/domain/approvalService.js:73:42
+-       if (!user || !user.id || !user.role) {
+-         return { ok: false, reason: 'Rejection requires an actor.' };
+-       }
++       if (!user || !user.id || !user.role) {}
+
+[NoCoverage] ObjectLiteral
+src/domain/approvalService.js:73:42
+-         return { ok: false, reason: 'Rejection requires an actor.' };
++         return {};
+
+[NoCoverage] BooleanLiteral
+src/domain/approvalService.js:73:42
+-         return { ok: false, reason: 'Rejection requires an actor.' };
++         return { ok: true, reason: 'Rejection requires an actor.' };
+
+[NoCoverage] StringLiteral
+src/domain/approvalService.js:73:42
+-         return { ok: false, reason: 'Rejection requires an actor.' };
++         return { ok: false, reason: "" };
+
+[NoCoverage] BlockStatement
+src/domain/approvalService.js:77:25
+-       if (!roleIsAllowed) {
+-         return { ok: false, reason: 'Only Managers and Directors may reject invoices.' };
+-       }
++       if (!roleIsAllowed) {}
+
+[NoCoverage] ObjectLiteral
+src/domain/approvalService.js:77:25
+-         return { ok: false, reason: 'Only Managers and Directors may reject invoices.' };
++         return {};
+
+[NoCoverage] BooleanLiteral
+src/domain/approvalService.js:77:25
+-         return { ok: false, reason: 'Only Managers and Directors may reject invoices.' };
++         return { ok: true, reason: 'Only Managers and Directors may reject invoices.' };
+
+[NoCoverage] StringLiteral
+src/domain/approvalService.js:77:25
+-         return { ok: false, reason: 'Only Managers and Directors may reject invoices.' };
++         return { ok: false, reason: "" };
+
+[Survived] LogicalOperator
+src/domain/approvalService.js:31:9
+-       if (!user || !user.id || !user.role) {
++       if ((!user || !user.id) && !user.role) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    ApprovalService returns a business-rule result when the approver is not allowed
+  and 1 more test!
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:27:9
+-       if (invoice.status === InvoiceStatus.REJECTED) {
++       if (false) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    ApprovalService returns a business-rule result when the approver is not allowed
+  and 1 more test!
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:31:9
+-       if (!user || !user.id || !user.role) {
++       if (false) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    ApprovalService returns a business-rule result when the approver is not allowed
+  and 1 more test!
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:31:9
+-       if (!user || !user.id || !user.role) {
++       if (false || !user.role) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    ApprovalService returns a business-rule result when the approver is not allowed
+  and 1 more test!
+
+
+[Survived] LogicalOperator
+src/domain/approvalService.js:31:9
+-       if (!user || !user.id || !user.role) {
++       if (!user && !user.id || !user.role) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    ApprovalService returns a business-rule result when the approver is not allowed
+  and 1 more test!
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:48:9
+-       if (invoice.status !== InvoiceStatus.PENDING_APPROVAL) {
++       if (true) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    invoice repository baseline behaviour approves an existing invoice
+
+
+[Survived] EqualityOperator
+src/domain/approvalService.js:48:9
+-       if (invoice.status !== InvoiceStatus.PENDING_APPROVAL) {
++       if (invoice.status === InvoiceStatus.PENDING_APPROVAL) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    invoice repository baseline behaviour approves an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:48:9
+-       if (invoice.status !== InvoiceStatus.PENDING_APPROVAL) {
++       if (false) {
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    invoice repository baseline behaviour approves an existing invoice
+
+
+[Survived] BlockStatement
+src/domain/approvalService.js:48:60
+-       if (invoice.status !== InvoiceStatus.PENDING_APPROVAL) {
+-         invoice.status = InvoiceStatus.PENDING_APPROVAL;
+-       }
++       if (invoice.status !== InvoiceStatus.PENDING_APPROVAL) {}
+Tests ran:
+    ApprovalService approves an invoice when a manager approves
+    ApprovalService approves an invoice when a director approves
+    invoice repository baseline behaviour approves an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:61:9
+-       if (!invoice) {
++       if (false) {
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    ApprovalService returns a business-rule result when rejecting an already approved invoice
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:73:9
+-       if (!user || !user.id || !user.role) {
++       if (false) {
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] LogicalOperator
+src/domain/approvalService.js:73:9
+-       if (!user || !user.id || !user.role) {
++       if ((!user || !user.id) && !user.role) {
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:73:9
+-       if (!user || !user.id || !user.role) {
++       if (false || !user.role) {
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] LogicalOperator
+src/domain/approvalService.js:73:9
+-       if (!user || !user.id || !user.role) {
++       if (!user && !user.id || !user.role) {
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:69:9
+-       if (invoice.status === InvoiceStatus.REJECTED) {
++       if (false) {
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:77:27
+-       const roleIsAllowed = user.role === 'Manager' || user.role === 'Director';
++       const roleIsAllowed = true;
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] StringLiteral
+src/domain/approvalService.js:77:41
+-       const roleIsAllowed = user.role === 'Manager' || user.role === 'Director';
++       const roleIsAllowed = user.role === "" || user.role === 'Director';
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:77:27
+-       const roleIsAllowed = user.role === 'Manager' || user.role === 'Director';
++       const roleIsAllowed = false || user.role === 'Director';
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] EqualityOperator
+src/domain/approvalService.js:77:27
+-       const roleIsAllowed = user.role === 'Manager' || user.role === 'Director';
++       const roleIsAllowed = user.role !== 'Manager' || user.role === 'Director';
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:77:27
+-       const roleIsAllowed = user.role === 'Manager' || user.role === 'Director';
++       const roleIsAllowed = false;
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:77:27
+-       const roleIsAllowed = user.role === 'Manager' || user.role === 'Director';
++       const roleIsAllowed = true || user.role === 'Director';
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] ConditionalExpression
+src/domain/approvalService.js:77:27
+-       const roleIsAllowed = user.role === 'Manager' || user.role === 'Director';
++       const roleIsAllowed = user.role === 'Manager' || false;
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[Survived] BlockStatement
+src/domain/approvalService.js:83:25
+-       invoice.approvals = [...invoice.approvals];
++       invoice.approvals = [];
+Tests ran:
+    ApprovalService rejects an invoice when a director rejects it
+    invoice repository baseline behaviour rejects an existing invoice
+
+
+[NoCoverage] ArrayDeclaration
+src/domain/invoice.js:9:71
+-     constructor({ id, amount, status = InvoiceStatus.DRAFT, approvals = [] } = {}) {
++     constructor({ id, amount, status = InvoiceStatus.DRAFT, approvals = ["Stryker was here"] } = {}) {
+
+[NoCoverage] BlockStatement
+src/domain/invoice.js:9:82
+-     constructor({ id, amount, status = InvoiceStatus.DRAFT, approvals = [] } = {}) {
+-       this.id = id;
+-       this.amount = Number(amount);
+-       this.status = status;
+-       this.approvals = Array.isArray(approvals) ? approvals.map((approval) => ({ ...approval })) : [];
+-     }
++     constructor({ id, amount, status = InvoiceStatus.DRAFT, approvals = [] } = {}) {}
+
+[NoCoverage] ArrowFunction
+src/domain/invoice.js:13:63
+-       this.approvals = Array.isArray(approvals) ? approvals.map((approval) => ({ ...approval })) : [];
++       this.approvals = Array.isArray(approvals) ? approvals.map(() => undefined) : [];
+
+[NoCoverage] ObjectLiteral
+src/domain/invoice.js:13:78
+-       this.approvals = Array.isArray(approvals) ? approvals.map((approval) => ({ ...approval })) : [];
++       this.approvals = Array.isArray(approvals) ? approvals.map((approval) => ({})) : [];
+
+[NoCoverage] ArrayDeclaration
+src/domain/invoice.js:13:98
+-       this.approvals = Array.isArray(approvals) ? approvals.map((approval) => ({ ...approval })) : [];
++       this.approvals = Array.isArray(approvals) ? approvals.map((approval) => ({ ...approval })) : ["Stryker was here"];
+
+[Survived] StringLiteral
+src/domain/invoice.js:2:10
+-     DRAFT: 'Draft',
++     DRAFT: "",
+Ran all tests for this mutant.
+
+[Survived] StringLiteral
+src/domain/invoice.js:5:13
+-     REJECTED: 'Rejected'
++     REJECTED: ""
+Ran all tests for this mutant.
+
+[Survived] StringLiteral
+src/domain/invoice.js:3:21
+-     PENDING_APPROVAL: 'PendingApproval',
++     PENDING_APPROVAL: "",
+Ran all tests for this mutant.
+
+[Survived] StringLiteral
+src/domain/invoice.js:4:13
+-     APPROVED: 'Approved',
++     APPROVED: ""
+Ran all tests for this mutant.
+
+[NoCoverage] ObjectLiteral
+src/domain/user.js:1:39
+-   export const UserRole = Object.freeze({
+-     MANAGER: 'Manager',
+-     DIRECTOR: 'Director'
+-   });
++   export const UserRole = Object.freeze({});
+
+[NoCoverage] StringLiteral
+src/domain/user.js:2:12
+-     MANAGER: 'Manager',
++     MANAGER: "",
+
+[NoCoverage] StringLiteral
+src/domain/user.js:3:13
+-     DIRECTOR: 'Director'
++     DIRECTOR: ""
+
+[NoCoverage] BlockStatement
+src/domain/user.js:7:40
+-     constructor({ id, name, role } = {}) {
+-       this.id = id;
+-       this.name = name;
+-       this.role = role;
+-     }
++     constructor({ id, name, role } = {}) {}
+
+Ran 1.42 tests per mutant on average.
+--------------------|------------------|----------|-----------|------------|----------|----------|
+                    | % Mutation score |          |           |            |          |          |
+File                |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+--------------------|--------|---------|----------|-----------|------------|----------|----------|
+All files           |  55.73 |   74.49 |       73 |         0 |         25 |       33 |        0 |
+ approvalService.js |  61.54 |   77.42 |       72 |         0 |         21 |       24 |        0 |
+ invoice.js         |  10.00 |   20.00 |        1 |         0 |        4 |        5 |        0 |
+ user.js            |   0.00 |    0.00 |        0 |         0 |        4 |        0 |
+--------------------|--------|---------|----------|-----------|------------|----------|----------|
+15:18:19 (196) INFO HtmlReporter Your report can be found at: file:///C:/Project/ai-sdlc-demo-app/reports/mutation/html/index.html
+15:18:19 (196) INFO MutationTestExecutor Done in 29 seconds.
