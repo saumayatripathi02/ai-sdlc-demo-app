@@ -1,8 +1,11 @@
 #!/usr/bin/env node
-'use strict';
 
-const fs = require('node:fs');
-const path = require('node:path');
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const logDir = path.resolve(__dirname, '..', 'ai-log');
 const logFile = path.join(logDir, 'interactions.log');
