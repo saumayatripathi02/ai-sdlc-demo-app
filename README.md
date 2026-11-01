@@ -1,48 +1,60 @@
-# Invoice Approval Demo App
+# Invoice Approval Demo
 
-A small invoice approval app used for live AI-in-SDLC demos. It is deliberately simple: a .NET 8 API, a plain web UI, and an in-memory store, so it runs with one command and no database.
+A small Node.js/Express API and static web UI for demonstrating invoice approval workflows. Approval rules live in the domain layer; the UI and API surface the domain results.
 
-## Run it
+## Approval Rules
 
+- Managers can approve invoices up to 50,000 inclusive when a single approver is sufficient.
+- Directors can approve invoices up to 500,000 inclusive.
+- Invoices above 500,000 require two distinct approvers. The second approver must be a Director.
+- A rejected attempt returns a reason and leaves the invoice status, approvals, and amount unchanged.
+
+## Requirements
+
+- Node.js and npm
+
+## Run Locally
+
+```sh
+npm install
+npm start
 ```
-dotnet run --project backend/src/InvoiceApp.Api
-```
 
-Open http://localhost:5000 and sign in:
-
-| User | Password | Role |
-| --- | --- | --- |
-| `demo.approver` | `ChangeMe123!` | Approver |
-| `demo.admin` | `ChangeMe123!` | Admin |
-
-These are demo accounts for a local, in-memory app. They are not real credentials.
-
-## What it does
-
-1. Create an invoice (it starts as a draft).
-2. Submit it for approval.
-3. An approver approves it, or rejects it with a reason.
-
-Invoices move through Draft, Pending Approval, then Approved or Rejected.
+Open <http://localhost:5000>.
 
 ## Tests
 
-```
-dotnet test backend/InvoiceApp.sln
-```
+Run the unit tests:
 
-## Project layout
-
-```
-backend/
-  src/InvoiceApp.Domain   business rules
-  src/InvoiceApp.Api      controllers, sign-in, web UI (wwwroot)
-  tests/InvoiceApp.Tests  xUnit tests
-docs/use-cases            short feature briefs
-AGENTS.md                 conventions for AI coding agents
+```sh
+npm test
 ```
 
-## Use cases
+Run mutation tests:
 
-- [UC-1 Bulk invoice approval](docs/use-cases/UC-1-bulk-approval.md)
-- [UC-2 Partial approval](docs/use-cases/UC-2-partial-approval.md)
+```sh
+npm run mutate
+```
+
+Run the Playwright end-to-end tests:
+
+```sh
+cd e2e
+npm install
+npx playwright install chromium
+npx playwright test
+```
+
+The `e2e` package's `npm test` script is currently a placeholder, so invoke Playwright directly. The Playwright `webServer` configuration currently contains a checkout-specific path (`/c/Project/ai-sdlc-demo-app`); update that path in `e2e/playwright.config.js` if your checkout is elsewhere.
+
+## Project Layout
+
+- `src/domain`: invoice lifecycle and approval rules
+- `src/repositories`: repository implementations
+- `src/api`: Express routes, sign-in, and API error mapping
+- `src/public`: static web UI
+- `tests/unit`: Vitest unit tests
+- `e2e`: Playwright tests and page objects
+- `openspec`: specifications and change proposals
+
+See [AGENTS.md](AGENTS.md) for project conventions and [ASSIGNMENT.md](ASSIGNMENT.md) for assignment notes.

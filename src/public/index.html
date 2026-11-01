@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Approval</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        background: #f7f7f7;
+      }
+      .panel {
+        max-width: 960px;
+        margin: 0 auto;
+        background: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      }
+      form {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 1.5rem;
+      }
+      label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+      }
+      input {
+        padding: 0.5rem 0.75rem;
+        min-width: 180px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+      button {
+        padding: 0.6rem 1rem;
+        border: none;
+        border-radius: 6px;
+        background: #0d6efd;
+        color: white;
+        cursor: pointer;
+      }
+      button.secondary {
+        background: #6c757d;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+      }
+      th, td {
+        border-bottom: 1px solid #ddd;
+        padding: 0.75rem;
+        text-align: left;
+      }
+      .status {
+        font-weight: 600;
+      }
+      .error {
+        margin-top: 1rem;
+        color: #b42318;
+        min-height: 1.25rem;
+      }
+      .signed-in {
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="panel">
+      <h1>Invoice approvals</h1>
+
+      <section aria-label="Sign in form">
+        <form id="signInForm">
+          <div>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" aria-label="Username" required />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" aria-label="Password" required />
+          </div>
+          <button type="submit" aria-label="Sign in">Sign in</button>
+        </form>
+      </section>
+
+      <div id="signedInUser" class="signed-in" aria-live="polite"></div>
+
+      <section aria-label="Invoice actions">
+        <h2>Invoices</h2>
+        <form id="submitInvoiceForm" aria-label="Submit invoice form">
+          <div>
+            <label for="amount">Amount</label>
+            <input id="amount" name="amount" type="number" min="0" step="0.01" aria-label="Invoice amount" required />
+          </div>
+          <button type="submit" aria-label="Submit invoice">Submit invoice</button>
+        </form>
+
+        <table aria-label="Invoice table">
+          <thead>
+            <tr>
+              <th scope="col">Invoice ID</th>
+              <th scope="col">Amount</th>
+              <th scope="col">Status</th>
+              <th scope="col">Approvals</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="invoiceTableBody"></tbody>
+        </table>
+      </section>
+
+      <div id="errorReason" class="error" aria-live="assertive"></div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
